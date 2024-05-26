@@ -1,0 +1,20 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: flex-start;
+    padding-top: 3rem;
+  }
+
+ .blogitemh3{
+  cursor: pointer;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+
+ }
+ .blogitemp{
+  max-width: 45vw;
+ }
