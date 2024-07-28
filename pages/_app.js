@@ -7,3 +7,4 @@ export default function App({ Component, pageProps }) {
   <Component {...pageProps} />
   </>
 }
+// npm run dev to start an application on local host
