@@ -1,5 +1,5 @@
 import Head from 'next/head'
-// import Image from 'next/image'
+import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 // import Link from 'next/link'
@@ -35,8 +35,8 @@ export default function Home() {
       <span className='hunter'>Hunting Coder</span>
       </h1>
       <div className={styles.imagewrap}>
-      {/* <Image className = {styles.myimg} src="/image1.jpg"  alt = "imaeg" width={113} height={78}/> */}
-      <image className={styles.myImg} src="/image1.jpg" width={237} height={158} alt="hunting coder" />
+      <Image className = {styles.myimg} src="/image1.jpg"  alt = "imaeg" width={113} height={78}/>
+      {/* <image className={styles.myImg} src="/image1.jpg" width={237} height={158} alt="hunting coder" /> */}
       </div>
       <p className={styles.description}>
         Welcome to hunting Coder
